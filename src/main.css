@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-bold ml-[-4px] my-8 text-slate-800 text-6xl tracking-tighter;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+
+    h3 {
+        @apply text-lg;
+    }
+
+    a {
+        @apply text-blue-600 underline;
+    }
+
+    body {
+        /* @apply font-serif; */
+    }
+}
